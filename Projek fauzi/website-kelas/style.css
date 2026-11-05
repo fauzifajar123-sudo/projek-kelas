@@ -1344,7 +1344,42 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   .page-header h2 { font-size: 1.5rem; }
   .hero-buttons { flex-direction: column; align-items: center; }
   .quick-cards { margin-top: -1rem; }
-  .siswa-grid, .guru-grid, .Guru-grid { grid-template-columns: repeat(2, 1fr); }
+  .siswa-grid, .guru-grid, .Guru-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .galeri-grid { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 600px) {
+  .navbar { padding: 0 1rem; }
+  .container { width: 100%; padding: 1.5rem 1rem 3rem; }
+  .page-header { padding: 2rem 0.75rem 0.75rem; }
+  .page-header h2 { font-size: 1.6rem; }
+
+  .hero { min-height: calc(100svh - var(--nav-height)); }
+  .hero-content { width: 100%; padding: 2rem 1rem; }
+  .hero-title { font-size: 2.25rem; overflow-wrap: anywhere; }
+  .hero-school { font-size: 1rem; }
+  .hero-motto { font-size: 1rem; }
+  .hero-stats { gap: 0.5rem; }
+  .stat-card { flex: 1 1 28%; min-width: 0; padding: 0.7rem 0.45rem; }
+  .stat-num { font-size: 1.5rem; }
+  .stat-label { font-size: 0.7rem; }
+  .hero-buttons { width: 100%; max-width: 320px; margin: 0 auto; gap: 0.6rem; }
+  .hero-buttons button { width: 100%; padding: 0.7rem 1rem; }
+
+  .quick-cards { grid-template-columns: minmax(0, 1fr); padding: 0 1rem 2rem; }
+  .quick-card { min-width: 0; padding: 0.9rem 1rem; }
+  .info-grid { grid-template-columns: minmax(0, 1fr); gap: 1rem; }
+  .info-box { min-width: 0; padding: 1rem; }
+  .info-table { table-layout: fixed; }
+  .info-table td { overflow-wrap: anywhere; }
+
+  .siswa-grid, .guru-grid, .Guru-grid { gap: 0.65rem; }
+  .siswa-card, .guru-card, .Guru-card { min-width: 0; padding: 0.9rem 0.55rem; }
+  .jadwal-item { gap: 0.65rem; padding: 0.8rem 1rem; }
+  .jadwal-time { min-width: 76px; }
+  .jadwal-info { min-width: 0; }
+  .pengumuman-card { padding: 1rem; }
+  .galeri-grid { grid-template-columns: minmax(0, 1fr); }
+  .lightbox-content { width: calc(100% - 1.5rem); }
 }
 

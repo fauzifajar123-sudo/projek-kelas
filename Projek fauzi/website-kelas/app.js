@@ -146,7 +146,7 @@ const dataJadwal = {
 
 // ─── DATA GALERI ─────────────────────────────────────────────
 const dataGaleri = [
-  { id: 1,  title: "After 17 Agustus 🇮🇩", foto: "foto/foto kelas 1.jpeg" },
+  { id: 1,  title: "After 17 Agustus 🇮", foto: "foto/foto kelas 1.jpeg" },
   { id: 2,  title: "After Petugas Upacara ", foto: "foto/foto kelas 2.jpeg" },
   { id: 3,  title: "Skuad Petugas Upacara ", foto: "foto/foto kelas 3.jpeg" },
   { id: 4,  title: "Santai di Villa ", foto: "foto/foto kelas 4.jpeg" },
@@ -163,7 +163,7 @@ const dataGaleri = [
   { id: 15, title: "Sidang PKL ", foto: "foto/sidang pkl.jpeg" },
   { id: 16, title: "Sidang PKL 2 ", foto: "foto/sidang pkl 2.jpeg" },
   { id: 17, title: "Sidang PKL 3 ", foto: "foto/sidang pkl 3.jpeg" },
-  { id: 17, title: "TKA", foto: "foto/tka.jpeg" },
+  { id: 17, title: "TKA", foto: "" },
 ];
 
 // ─── STATE ───────────────────────────────────────────────────
