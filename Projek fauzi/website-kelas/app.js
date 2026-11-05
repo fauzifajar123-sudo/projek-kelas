@@ -11,7 +11,7 @@ const dataSiswa = [
   { no:5,  nama:"Azkal Azkia",              kataKata:"gusti allah boten sare ", gender:"L", foto:"foto/AZKAL.jpg" },
   { no:6,  nama:"Destian Ezhar",            kataKata:"mungkin kita sampai, mungkin saja tidak, tugas kita hanyalah berjalan", gender:"L", foto:"foto/Destian Ezar Fahlevy.jpg" },
   { no:7,  nama:"Fakeeh Aziela",            kataKata:"", gender:"L", foto:"foto/FAKEEH AZIELA.jpg" },
-  { no:8,  nama:"Fauzi Dwifajar",           kataKata:"stay tuned", gender:"L", foto:"foto/Fauzi Dwifajar.png" },
+  { no:8,  nama:"Fauzi Dwifajar",           kataKata:"stay tuned", gender:"L", foto:"" },
   { no:9,  nama:"Fikri Syahruly",           kataKata:"saat berada di puncak , ingatlah bahwa kakimu pernah di bawah . jangan lupa pada Meraka yang merangkul saat kamu bukan siapa siapa", gender:"L", foto:"foto/Fikrih Syahrully.jpg" },
   { no:10, nama:"Hanif Nektar",             kataKata:"Bukan tentang berapa lama kita bersama, tapi seberapa berarti kita pernah ada.", gender:"L", foto:"foto/Hanif Nektarnaza Adiva.jpg" },
   { no:11, nama:"Ibnu Shaleh",              kataKata:"", gender:"L", foto:"foto/IBNU SHOLEH.jpg" },
