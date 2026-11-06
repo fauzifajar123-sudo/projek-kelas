@@ -44,13 +44,13 @@ const dataGuru = [
   { no:6,  nama:"Magfiroh, M.Pd.",                  mapel:"Matematika",                                 gender:"P", foto:"foto/foto guru mtk.jpeg" },
   { no:7,  nama:"Siti Nurhayati, M.Pd.",            mapel:"Bahasa Inggris",                             gender:"P", foto:"foto/guru inggris.jpeg" },
   { no:8,  nama:"Hari Apriyanto, S.E.",             mapel:"KIK",                                        gender:"L", foto:"foto/Pak hari.jpeg" },
-  { no:9,  nama:"Johanudin, S.Pd.",                 mapel:"Bimbingan Konseling (BK)",                   gender:"L", foto:"" },
+  { no:9,  nama:"Johanudin, S.Pd.",                 mapel:"Bimbingan Konseling (BK)",                   gender:"L", foto:"foto/pa jo.png" },
   { no:10, nama:"Selma Salsabila, S.Hum.",          mapel:"Bahasa Jepang",                              gender:"P", foto:"foto/guru jepang.jpeg" },
   { no:11, nama:"Nuruddin, S.Pd.I.",                mapel:"KPS",                                        gender:"L", foto:"" },
   { no:12, nama:"Imas Gandasari, S.E.I.",           mapel:"Pendidikan Agama & Budi Pekerti (PABP)",     gender:"P", foto:"foto/guru PABP.jpeg" },
-  { no:13, nama:"Neneng Nureani, S.Sos.",           mapel:"PPKN",                                       gender:"P", foto:"" },
+  { no:13, nama:"Neneng Nureani, S.Sos.",           mapel:"PPKN",                                       gender:"P", foto:"foto/bu neneng.png" },
   { no:14, nama:"Satrio Wicaksono, S.Kom.",         mapel:"PIC TJKT",                                   gender:"L", foto:"foto/pa satrio.jpeg" },
-  { no:15, nama:"Madiki, S.Kom",                    mapel:"Konfigurasi dan Pengelolaan jaringan",       gender:"L", foto:"" },
+  { no:15, nama:"Madiki, S.Kom",                    mapel:"Konfigurasi dan Pengelolaan jaringan",       gender:"L", foto:"foto/pa diky.png" },
 ];
 const Guru = dataGuru;
 
