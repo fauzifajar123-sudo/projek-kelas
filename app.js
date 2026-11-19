@@ -518,6 +518,35 @@ window.addEventListener('scroll', () => {
 
 // ─── INIT ────────────────────────────────────────────────────
 document.addEventListener('DOMContentLoaded', () => {
+  const introScreen = document.getElementById('introScreen');
+  const introSkip = document.getElementById('introSkip');
+
+  if (introScreen) {
+    const pageElements = Array.from(document.body.children).filter(element => element !== introScreen);
+    document.body.classList.add('intro-open');
+    pageElements.forEach(element => { element.inert = true; });
+    introSkip?.focus({ preventScroll: true });
+    let introTimer;
+
+    const finishIntro = () => {
+      if (introScreen.classList.contains('is-leaving')) return;
+      window.clearTimeout(introTimer);
+      introScreen.classList.add('is-leaving');
+      introScreen.setAttribute('aria-hidden', 'true');
+      document.body.classList.remove('intro-open');
+      pageElements.forEach(element => { element.inert = false; });
+      introSkip?.blur();
+      document.removeEventListener('keydown', skipIntroWithEscape);
+    };
+    const skipIntroWithEscape = event => {
+      if (event.key === 'Escape') finishIntro();
+    };
+
+    introSkip?.addEventListener('click', finishIntro);
+    document.addEventListener('keydown', skipIntroWithEscape);
+    introTimer = window.setTimeout(finishIntro, window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 550 : 4400);
+  }
+
   // Set first nav link active
   const firstLink = document.querySelector('.nav-links a');
   if (firstLink) firstLink.classList.add('active');

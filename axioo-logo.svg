@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 126" role="img" aria-labelledby="title">
+  <title id="title">Axioo, Style Meets Performance</title>
+  <g fill="none" stroke="#343434" stroke-linecap="round" stroke-linejoin="round" stroke-width="17">
+    <path d="M99 14H53C32 14 19 27 19 48v10c0 20 13 32 34 32h42c17 0 26-10 26-28V24c0-13-8-20-20-20H62" />
+    <path d="M28 52H94" />
+    <rect x="263" y="5" width="113" height="88" rx="25" />
+    <rect x="393" y="5" width="119" height="88" rx="25" />
+  </g>
+  <g fill="#343434">
+    <rect x="237" y="5" width="17" height="88" rx="8.5" />
+  </g>
+  <g>
+    <rect x="132" y="15" width="48" height="18" rx="9" fill="#85246f" transform="rotate(48 156 24)" />
+    <rect x="182" y="15" width="48" height="18" rx="9" fill="#f36b21" transform="rotate(-48 206 24)" />
+    <rect x="132" y="69" width="48" height="18" rx="9" fill="#68bb45" transform="rotate(-48 156 78)" />
+    <rect x="182" y="69" width="48" height="18" rx="9" fill="#0878bc" transform="rotate(48 206 78)" />
+  </g>
+  <text x="270" y="121" fill="#343434" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="600" letter-spacing="3.1" text-anchor="middle">STYLE MEETS PERFORMANCE</text>
+</svg>
